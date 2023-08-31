@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(217, 14, 14);
     font-family: Arial, sans-serif;
     color: white;
 }
