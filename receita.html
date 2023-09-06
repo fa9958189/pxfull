@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!-- Adicione a biblioteca Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .image-container {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            transition: transform 0.5s;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .recipe {
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        .image-container:hover {
+            transform: rotateY(180deg);
+        }
+
+        /* Estilo para a receita */
+        .recipe-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .ingredientes {
+            font-size: 18px;
+        }
+
+        .modo-preparo {
+            font-size: 18px;
+        }
+
+        /* Estilos para o rodapé */
+        .footer {
+            background-color: #4CAF50;
+            /* Cor verde */
+            padding: 20px;
+            color: white;
+            /* Cor do texto branco */
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilo para os ícones */
+        .social-links i {
+            font-size: 24px;
+            margin: 0 10px;
+        }
+
+        .recipe img {
+            max-width: 100px;
+            /* Defina a largura máxima desejada, por exemplo, 100px */
+            height: auto;
+            /* Mantém a proporção original da imagem */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">NutriVerde Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-5">
+        <!-- Receita "Rolinho de Alface Fácil" -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="image-container">
+                    <img src="/fotos frutas/f1.webp" alt="Rolinho de Alface">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="recipe">
+                    <p class="recipe-title">Rolinho de Alface Fácil</p>
+                    <h2>Ingredientes</h2>
+                    <ul class="ingredientes">
+                        <li>8 folhas de alface lavadas e secas</li>
+                        <li>200g de peito de frango cozido e desfiado</li>
+                        <li>1 cenoura ralada</li>
+                        <li>1/2 pepino cortado em tiras finas</li>
+                        <li>2 colheres de sopa de maionese</li>
+                        <li>Sal e pimenta a gosto</li>
+                    </ul>
+                </div>
+                <div id="instructions">
+                    <h2>Modo de Preparo</h2>
+                    <ol class="modo-preparo">
+                        <li>Misture o peito de frango desfiado, a cenoura ralada, o pepino e a maionese em uma tigela.</li>
+                        <li>Tempere com sal e pimenta a gosto.</li>
+                        <li>Coloque uma porção da mistura no centro de cada folha de alface.</li>
+                        <li>Enrole as folhas de alface como um rolinho, dobrando as laterais para dentro.</li>
+                        <li>Sirva os rolinhos de alface com molho de sua preferência.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5">
+        <!-- Receita "Salada de Alface com Cenoura e Palmito" -->
+        <div class="row">
+            <div class="col-md-4
