@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .figurinha-container {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            perspective: 1000px;
+        }
+
+        .figurinha {
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            border: 2px solid red;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.5s ease-in-out;
+            transform-style: preserve-3d;
+        }
+
+        .mensagem {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotateY(180deg);
+            backface-visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .figurinha:hover {
+            transform: rotateY(180deg);
+        }
+
+        .figurinha:hover .mensagem {
+            opacity: 1;
+        }
+    </style>
+    <title>Div Rotativa com Mensagem</title>
+</head>
+<body>
+    <div class="figurinha-container">
+        <div class="figurinha">
+            <span>Texto</span>
+            <div class="mensagem">
+                <p>Esta é a mensagem quando a div vira.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
