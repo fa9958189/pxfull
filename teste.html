@@ -14,7 +14,7 @@
 
         .figurinha-container {
             position: relative;
-            width: 400px; /* Aumente o tamanho da div para acomodar o conteúdo */
+            width: 900px; /* Aumente o tamanho da div para acomodar o conteúdo */
             height: 300px; /* Ajuste a altura conforme necessário */
             perspective: 1000px;
         }
@@ -23,7 +23,7 @@
             width: 100%;
             height: 100%;
             background-color: #fff;
-            border: 2px solid red;
+            border: 2px solid rgb(0, 255, 13);
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -47,7 +47,7 @@
             backface-visibility: hidden;
             opacity: 0;
             transition: opacity 0.5s ease-in-out;
-            font-size: 14px; /* Ajuste o tamanho da fonte da mensagem conforme necessário */
+            font-size: 24px; /* Aumente o tamanho da fonte da mensagem conforme necessário */
         }
 
         .figurinha:hover {
@@ -62,6 +62,7 @@
         h2 {
             margin: 0;
             padding: 10px 0;
+            font-size: 28px; /* Aumente o tamanho da fonte dos títulos */
         }
 
         ul, ol {
@@ -70,7 +71,8 @@
         }
 
         li {
-            padding: 5px 0;
+            padding: 10px 0;
+            font-size: 20px; /* Aumente o tamanho da fonte dos itens da lista */
         }
     </style>
     <title>Div Rotativa com Mensagem</title>
@@ -90,16 +92,16 @@
                 </ul>   
             </span>
             <div class="mensagem">
-                <p>              
+                <span>           
                     <h2>Modo de Preparo</h2>
-                    <ol class="modo-preparo">
+                    <ul class="ingredientes">
                         <li>Misture o peito de frango desfiado, a cenoura ralada, o pepino e a maionese em uma tigela.</li>
                         <li>Tempere com sal e pimenta a gosto.</li>
                         <li>Coloque uma porção da mistura no centro de cada folha de alface.</li>
                         <li>Enrole as folhas de alface como um rolinho, dobrando as laterais para dentro.</li>
                         <li>Sirva os rolinhos de alface com molho de sua preferência.</li>
-                    </ol>   
-                </p>
+                    </ul>    
+                </span> 
             </div>
         </div>
     </div>
