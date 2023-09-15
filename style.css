@@ -235,4 +235,36 @@ li {
     object-fit: cover;
     z-index: -1;
 }
-  
+.col-md-6{
+    background-color: #4CAF50;
+    border-radius: 6px;
+    color: #FFFFFF;
+    padding: 16px;
+    width: 220px;
+    overflow: hidden;
+    transition: 0.6s;
+    transform: translate(0);
+    font-weight: 400;
+}
+.col-md-6:hover{
+    color: black;
+}
+.col-md-6 p {
+    margin: 0;
+}
+.col-md-6::before{
+    content: "";
+    position: absolute;
+    top: -75px;
+    left: -45px;
+    z-index: -1;
+    background: #ccc;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    transition: 0.6s;
+}
+.col-md-6:hover::before{
+    transform: scale(5);
+}
+
