@@ -280,6 +280,18 @@ li {
             max-width: 100%;
             height: auto;
         }
+        .texto {
+            text-align: center;
+            background-color: #fff; /* Cor de fundo padrão */
+            padding: 20px;
+            transition: background-color 0.3s ease; /* Efeito de transição de cor */
+        }
+        
+        /* Estilize a div com a classe "texto" ao passar o mouse sobre ela */
+        .texto:hover {
+            background-color: #4CAF50; /* Cor de fundo ao passar o mouse */
+            color: #fff; /* Cor do texto ao passar o mouse */
+        }
         
 
 
