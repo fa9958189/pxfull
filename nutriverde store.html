@@ -12,6 +12,8 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>NutriVerde</title>
     <link rel="stylesheet" href="/style.css">
+ 
+   
 </head>
 
 <body>
@@ -79,7 +81,7 @@
             <div class="col">
                 <div class="product-container">
                     <div class="product">
-                        <img src="/fotos frutas/10.jpg" alt="Product 1">
+                        <img src="/fotos frutas/12.jpg" alt="Product 1">
                     </div>
                     <div class="product">
                         <img src="/fotos frutas/4.jpg" alt="Product 2">
@@ -107,43 +109,58 @@
                         </div>
                     </div>
                 </div><br>
-                
+
+                <div id="popup" class="popup">
+                    <div id="popupContent" class="popup-content">
+                        <span id="closePopupButton" class="close-popup" onclick="closeImagePopup()">&times;</span>
+                        <h2></h2>
+                        <p></p>
+                    </div>
+                </div>
+
                 <div class="dragon">
+
                     <video autoplay loop muted poster="/caminho/do/poster.jpg">
                         <source src="/fotos frutas/videos/175717 (1080p).mp4" type="video/mp4">
-                        <!-- Adicione mais elementos source para fornecer formatos de vídeo diferentes -->
-                        Seu navegador não suporta a reprodução de vídeo.
                     </video>
-                    <div class="bol">
-                        <img src="/fotos frutas/Salsa.jpg" alt="Salada de Alface e Tomate">
-                        <h2>SALSA</h2>
-                  
-                    </div>
-             
-                    <div class="bol">
-                        <img src="/fotos frutas/alface roxo.jpg" alt="Salada de Frutas">
-                        <h2>ALFACE ROXO</h2>           
-                    </div>
 
-                    <div class="bol">
-                        <img src="/fotos frutas/Manjericão.jpg" alt="Salada de Frutas">
-                        <h2>MANJERICAO</h2>           
-                    </div>
+                    <h1 style="background-color: aliceblue;">conheça alguns dos nossos produtos</h1>
 
-                    <div class="bol">
-                        <img src="/fotos frutas/alface verde.jpg" alt="Salada de Frutas">
-                        <h2>ALFACE VERDE </h2>           
-                    </div>
+                <div class="bol">
+                    <img src="/fotos frutas/Salsa.jpg" alt="Salada de Alface e Tomate" class="image-popup" data-title="SALSA" data-description=
+                    "A salsa, ou salsinha, é originária do Mediterrâneo e está presente em todo o mundo como hortaliça e condimento. Além de ressaltar o sabor da comida, é utilizada como erva medicinal, graças às suas propriedades nutricionais">
+                    <h1>SALSA</h1>
+                </div>
+        
+                <div class="bol">
+                    <img src="/fotos frutas/alface roxo.jpg" alt="Salada de Frutas" class="image-popup" data-title="ALFACE ROXO" data-description=
+                    "Densa em nutrientes, a alface roxa contêm 11 calorias em 85 gramas. Proteínas, fibras, vitaminas K, A C, B1, B2, B6 e B9, magnésio, manganês, ferro e potássio são alguns dos seus benefícios para a saúde.">
+                    <h1>ALFACE ROXO</h1>
+                </div>
 
-                    <div class="bol">
-                        <img src="/fotos frutas/5.jpg" alt="Salada de Frutas">
-                        <h2>MUDAS</h2>           
-                    </div>
+                <div class="bol">
+                    <img src="/fotos frutas/Manjericão.jpg" alt="Salada de Frutas" class="image-popup" data-title="MANJERICAO" data-description=
+                    "O manjericão, ou alfavaca doce, é uma erva aromática pertencente à família da hortelã, Lamiaceae. Nativo da Índia, é cultivado desde a Antiguidade, suas folhas são utilizadas como tempero especialmente em países tropicais da Ásia e na cozinha italiana com produtos naturais.">  
+                    <h1>MANJERICAO</h1>  
+                </div>
 
-                    <div class="bol">
-                        <img src="/fotos frutas/1.jpg" alt="Salada de Frutas">
-                        <h2>Salada de Frutas</h2>           
-                    </div>
+                <div class="bol">
+                    <img src="/fotos frutas/alface verde.jpg" alt="Salada de Frutas" class="image-popup" data-title="ALFACE VERDE" data-description=
+                    "Do ponto de vista da saúde, a alface é rica em fibras e antioxidantes, ajudando a melhorar a saúde gastrointestinal e também regulando os níveis de açúcar no sangue. Nela, você encontra nutrientes e compostos como a vitamina C, carotenóides e clorofila.">  
+                     <h1>ALFACE VERDE</h1>      
+                </div>
+
+                <div class="bol">
+                    <img src="/fotos frutas/5.jpg" alt="Salada de Frutas" class="image-popup" data-title="MUDAS" data-description=
+                    "A muda, de forma geral, é o estágio inicial da planta. São plantas bem jovens, que precisam de um cuidado mais especial até ficarem formadas e levadas para o local onde permanecerão até adultas. Tecnicamente, uma muda é considerada formada quando a parte da planta apresenta raiz abundante e várias folhas">  
+                    <h1>MUDAS</h1>       
+                </div>
+
+                <div class="bol">
+                    <img src="/fotos frutas/1.jpg" alt="Salada de Frutas" class="image-popup" data-title="Rúcula" data-description=
+                    "A rúcula é um vegetal da mesma família da mostarda, do brócolis e do agrião. É uma planta originária da região do Mediterrâneo, adapta-se a clima fresco. Possui sabor picante como a mostarda, porém mais forte e amargo. É rica em fibras que auxilia e facilita a digestão e o funcionamento do intestino.">
+                    <h1>Rúcula</h1>        
+                </div>
                 </div><br><br><br>
 
 
@@ -174,6 +191,7 @@
         </a>
         </div>
     </footer>
+    <script src="/script.js"></script>
 </body>
 
 </html>
