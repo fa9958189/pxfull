@@ -5,13 +5,7 @@ box-sizing: border-box;
 font-family: "poppins";
 
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: 100vh;
-    background: #151515;
 
-}
 .card{
     position: relative;
     width: 350px;
@@ -77,7 +71,7 @@ body{
     transition-delay: 0.75s;
     top: 25%;
     left: 72%;
-    height: 500px;
+    height: 400px;
 }
 .card .content{
     position: absolute;
