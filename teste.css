@@ -83,9 +83,13 @@
     margin-top: 10px;
 }
 .slide{
-    color: #4CAF50;
-    background-color: #111;
+    color:  #fff;
+    background-color: #4CAF50;
 
 }
-  
+.principal {
+    background-size: cover; /* Isso garante que a imagem se ajuste ao tamanho da div */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    /* Outras propriedades de estilo, como cor do texto, margens, preenchimento, etc., se necessário */
+}
   
