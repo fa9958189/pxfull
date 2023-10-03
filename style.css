@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #035405;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -80,7 +80,7 @@ nav a {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #035405;
     color: white;
     padding: 20px;
     display: flex;
@@ -100,7 +100,7 @@ nav a {
 }
 
 .nav-link {
-    color:  #4CAF50 !important;
+    color:  #035405 !important;
   }
   
   /* Estilos para o carrossel */
@@ -119,7 +119,7 @@ nav a {
     padding: 20px;
     text-align: center;
     border-radius: 15px;
-    background-color: #4CAF50; /* Cor de fundo da seção de produtos */
+    background-color: #035405; /* Cor de fundo da seção de produtos */
     
   
   }
@@ -167,9 +167,9 @@ nav a {
 .figurinha {
     width: auto;
     height: auto;
-    background-color:  #4CAF50;
+    background-color:  #035405;
     color: white;
-    border: 2px solid rgb(0, 255, 13);
+    border: 2px solid #035405(0, 255, 13);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -188,7 +188,7 @@ nav a {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color:  #4CAF50;
+    background-color:  #035405;
     color: white;
     display: flex;
     justify-content: center;
@@ -224,30 +224,22 @@ li {
     padding: 10px 0;
     font-size: 20px; /* Aumente o tamanho da fonte dos itens da lista */
 }
-        /* Estilos CSS personalizados */
+
         .expansive-image {
             position: relative;
             height: auto; /* Altura da imagem expansiva */
+
+
         }
         
         .expansive-image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            border: #035405 solid;
+            border-radius: 100px;
         }
         
-        .info-overlay {
-            
-            background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para as informações */
-            color: #fff; /* Cor do texto */
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            padding: 20px;
-        }
-        *{color: black;}
-
 
         .popup {
             display: none;
@@ -322,7 +314,7 @@ li {
         
         /* Estilize a div com a classe "texto" ao passar o mouse sobre ela */
         .texto:hover {
-            background-color: #4CAF50; /* Cor de fundo ao passar o mouse */
+            background-color: #035405; /* Cor de fundo ao passar o mouse */
             color: #fff; /* Cor do texto ao passar o mouse */
         }
         

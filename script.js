@@ -44,3 +44,5 @@ window.addEventListener('click', (event) => {
         closeImagePopup();
     }
 });
+
+

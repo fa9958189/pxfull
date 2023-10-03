@@ -32,7 +32,7 @@
     align-items: center;
     background: transparent; /* Change the background to transparent */
     transition: background 0.5s; /* Smoothly transition background color */
-    border: 3px solid #4CAF50;
+    border: 3px solid #035405;
 }
 
 .card:hover .circle {
@@ -49,7 +49,7 @@
     position: absolute;
     width: 100%;
     bottom: 0;
-    background: #4CAF50;
+    background: #035405;
     padding: 20px;
     color: #fff;
     transition: all 0.5s;
@@ -84,12 +84,49 @@
 }
 .slide{
     color:  #fff;
-    background-color: #4CAF50;
+    background-color: #035405;
 
 }
 .principal {
     background-size: cover; /* Isso garante que a imagem se ajuste ao tamanho da div */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     /* Outras propriedades de estilo, como cor do texto, margens, preenchimento, etc., se necessário */
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.gallery-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+.gallery {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gallery img {
+    max-width: 90%;
+    max-height: 90%;
+}
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
 }
   
