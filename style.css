@@ -208,11 +208,11 @@ nav a {
     opacity: 1;
 }
 
-/* Estilização para a lista de ingredientes e modo de preparo */
 h2 {
     margin: 0;
     padding: 10px 0;
     font-size: 28px; /* Aumente o tamanho da fonte dos títulos */
+    
 }
 
 ul, ol {
