@@ -15,6 +15,7 @@ function openImagePopup(title, description) {
 }
 
 // Função para fechar o popup
+
 function closeImagePopup() {
     popup.style.display = 'none';
 }
@@ -43,21 +44,6 @@ window.addEventListener('click', (event) => {
     if (event.target === popup) {
         closeImagePopup();
     }
-});
-
-// Seleciona a div expansive-image pelo ID
-const expansiveImage = document.getElementById('expansive-image');
-
-// Adiciona um ouvinte de evento para quando o mouse entrar na div
-expansiveImage.addEventListener('mouseenter', () => {
-    // Adiciona uma classe que faz a div descer
-    expansiveImage.classList.add('expand-down');
-});
-
-// Adiciona um ouvinte de evento para quando o mouse sair da div
-expansiveImage.addEventListener('mouseleave', () => {
-    // Remove a classe para que a div volte ao seu estado original
-    expansiveImage.classList.remove('expand-down');
 });
 
 
