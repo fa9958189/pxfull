@@ -317,6 +317,10 @@ li {
             background-color: #035405; /* Cor de fundo ao passar o mouse */
             color: #fff; /* Cor do texto ao passar o mouse */
         }
+        .expand-down {
+            transform: translateY(50px); /* Desloca a div 50px para baixo (ajuste conforme necessário) */
+            transition: transform 0.3s ease; /* Adiciona uma transição suave para o movimento */
+        }
         
 
 
