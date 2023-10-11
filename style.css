@@ -322,6 +322,16 @@ li {
             transition: transform 0.3s ease; /* Adiciona uma transição suave para o movimento */
         }
 
+        #video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+ 
+
 
         
 
