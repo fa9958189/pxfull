@@ -88,9 +88,9 @@
 
 }
 .principal {
-    background-size: cover; /* Isso garante que a imagem se ajuste ao tamanho da div */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    /* Outras propriedades de estilo, como cor do texto, margens, preenchimento, etc., se necessário */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+
 }
 
 
