@@ -317,16 +317,15 @@ li {
         }
         .texto {
             text-align: center;
-            background-color: #fff; /* Cor de fundo padrão */
+            background-color: black; /* Cor de fundo padrão */
+            color: white;
             padding: 2px;
-            transition: background-color 0.3s ease; /* Efeito de transição de cor */
-            
-            
+            transition: background-color 0.3s ease; /* Efeito de transição de cor */    
         }
         
         /* Estilize a div com a classe "texto" ao passar o mouse sobre ela */
         .texto:hover {
-            background-color: #03290e; /* Cor de fundo ao passar o mouse */
+            background-color:  #03290e; /* Cor de fundo ao passar o mouse */
             color: #fff; /* Cor do texto ao passar o mouse */
         }
         .expand-down {
@@ -343,7 +342,7 @@ li {
             z-index: -1;
         }
         .rede{
-            color: #fff;
+            color: #03290e;
         }
  
 
