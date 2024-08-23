@@ -344,6 +344,55 @@ li {
         .rede{
             color: #03290e;
         }
+
+        cor{
+            background-color: black;
+        }
+
+
+
+        .moving-line {
+            width: 80px; /* Comece com largura zero */
+            height: 50px; /* Altura da linha */
+            background-color:  #03290e; /* Cor da linha */
+            position: relative; /* Posição absoluta para animar */
+            top: 15;
+            left: 20;
+            animation: expandLine 15s linear forwards; /* Duração da animação e nome da animação */
+        }
+        
+        @keyframes expandLine {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 100%; /* A largura chega a 100% */
+            }
+        }
+
+        
+
+
+        .animated-header {
+            font-size: 36px;
+            font-weight: bold;
+            color: #03290e;
+            margin: 20px;
+            text-align: center;
+            animation: header-animation 2s ease-in-out infinite;
+          }
+          
+          @keyframes header-animation {
+            0% {
+              transform: translateY(0);
+            }
+            50% {
+              transform: translateY(-10px);
+            }
+            100% {
+              transform: translateY(0);
+            }
+          }
  
 
 

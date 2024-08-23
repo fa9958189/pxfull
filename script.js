@@ -81,3 +81,17 @@ function toggleSidebar() {
 }
 
 
+// Add a JavaScript animation to the list items
+const listItems = document.querySelectorAll('li');
+
+listItems.forEach((item, index) => {
+  item.style.animation = `list-item-animation 1s ease-in-out ${index * 0.2}s infinite`;
+});
+
+// Add a JavaScript animation to the header
+const headers = document.querySelectorAll('.animated-header');
+
+headers.forEach((header, index) => {
+  header.style.animation = `header-animation 2s ease-in-out ${index * 0.2}s infinite`;
+});
+
