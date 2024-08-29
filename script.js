@@ -53,7 +53,7 @@ function toggleSidebar() {
 }
     function enviarMensagemWhatsApp() {
         // Número de telefone no formato internacional (no exemplo, +55 63 9203-6652)
-        var numeroTelefone = '556392036652';
+        var numeroTelefone = '556392393705';
 
         // Mensagem opcional
         var mensagem = 'Olá, estou entrando em contato pelo site.';
@@ -71,7 +71,7 @@ function toggleSidebar() {
 }
     function abrirPerfilInstagram() {
         // Nome de usuário do Instagram (no exemplo, "ambientalanjos")
-        var usuarioInstagram = 'ambientalanjos';
+        var usuarioInstagram = 'pxfull0';
 
         // Montar o link do Instagram
         var linkInstagram = 'https://www.instagram.com/' + usuarioInstagram;
